@@ -1,0 +1,15 @@
+<!-- <p>product works!</p> -->
+<h1 class="text-center mt-5 mb-5">Liste des produits</h1>
+<div class="Container_Card">
+  <div class="card" style="width: 18rem;" *ngFor="let tabProduct of tabProducts">
+    <img [src]="tabProduct.ProductImg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{tabProduct.ProductName}}</h5>
+      <!-- <p class="card-text">{{tabProduct.Productdescription}}</p> -->
+      <p class="card-text">{{tabProduct.ProductPrice}}</p>
+      <a [routerLink]="['/Productdetail', tabProduct.Productid]" class="btn btn-primary" (click)="detailProduit(tabProduct.Productid)">Voir detail produit</a>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

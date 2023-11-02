@@ -1,0 +1,11 @@
+.Container_Card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Container_Card img{
+  height: 230px;
+}

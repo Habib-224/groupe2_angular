@@ -1,0 +1,20 @@
+<div class="Container_card_section">
+  <div class="card mb-3  " style="max-width: 900px; height: 400px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img [src]="produits[produitId].ProductImg" class="img-fluid rounded-start" style="height: 400px;"  alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"><span id="Nom">Nom Produit :</span> {{produits[produitId].ProductName}}</h5>
+          <p id="description">Description:</p>
+          <p class="card-text" id="descriptions">{{produits[produitId].Productdescription}}</p>
+          <p class="card-text" id="price"><small class=""><span id="">Prix: </span>{{produits[produitId].ProductPrice}}</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,28 @@
+.card{
+  width: 70%;
+}
+
+.Container_card_section{
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+#Nom{
+  font-size: 18px;
+}
+
+#description{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#descriptions{
+  text-align: justify;
+}
+
+
+#price{
+  font-size: 20px;
+  font-weight: bold;
+}
